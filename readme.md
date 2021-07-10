@@ -1,22 +1,54 @@
 <!-- Readme.md v1.1.4.0
-MODNAME ()
+MkII-L (MkII-L)
 created: 01 Oct 19
-updated: 2020 04 10 -->
+updated: 10 Jul 2021 -->
 
 ## Download on [SpaceDock][MOD:spacedock] or [Github][MOD:github] or [Curseforge][MOD:curseforge]. Also available on [CKAN][MOD:ckan].  
 
-# Coyote Cargo Freighter ()
-#### by Coyote Space Industries
-## The Common Part Inventory
-#### Adopted by [@zer0Kerbal][LINK:zer0kerbal], originally by [@dboi88][LINK:dboi88]  
+# YARD MkII-L (MkII-L)
+#### by Yarbrough08
+## 
+#### Adopted by [@zer0Kerbal][LINK:zer0kerbal], originally by [@yarbrough08][LINK:yarbrough08]  
 ![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License MIT][shield:license] ![][LOGO:mit]   
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
 ![Code][shield:code] ![Validate AVC .version files][shield:avcvalid]  
 ***
-![MODNAME][IMG:hero:0]
-### Preamble by [@dboi88][LINK:dboi88]: 
-> So you may have heard that @magico13 is giving up modding KSP. I've got the honour of taking over support for MODNAME, because it makes sense as I have my own mod that depends on it (Oh Scrap!). I want to take this opportunity to thank magico13 for all his hard work and contributions to the community over the years, as I know that my own KSP experience would be much poorer without his mods. Anyway, enough from me.
+![MkII-L][IMG:hero:0]
+### Preamble by [@yarbrough08][LINK:yarbrough08]: 
+> Yarbrough Aerospace Research & Development
+
+is proud to present:
+
+# YARD Mk. II-L Aerospace Pack
+
+> based off of the Mk. II shape but sized as a shuttle system (3.75m top to bottom).
+
+[IMGUR album](https://imgur.com/a/JRupN)
+---  
+### Includes:
+- (1x) Pod with built-in retractable landing gear and ramps
+- (2x) Cargo bay with built-in solar panels
+- (2x) LFO tanks w/mono-propellant
+- (4x) Engine adapter plates
+- (1x) Intake (Fuselage Extension)
+- (2x) LF tank (Fuselage Extension)
+- (2x) Mono-propellant tank (Fuselage Extension)
+- (2x) Battery (Fuselage Extension)
+- (2x) Xenon gas tank (Fuselage Extension)
+- (2x) Structural fuselage (Fuselage Extension)
+- (3x) Wing pieces (no pictures yet)
+- (3x) Tapered wing pieces (no pictures yet)
+- (1x) Mk. II-L landing gear
+- (3x) Original Mk. II LF tanks
+- (3x) Original Mk. II LFO tanks
+- (1x) Original Mk. II landing gear section
+- (1x) Original Mk. II intake
+- (1x) Original Mk. II 1.25m adapter
+- (1x) Original Mk. II 2x 1.25m adapter
+- (1x) Craft file - YardBird
+
+So you may have heard that @magico13 is giving up modding KSP. I've got the honour of taking over support for MkII-L, because it makes sense as I have my own mod that depends on it (Oh Scrap!). I want to take this opportunity to thank magico13 for all his hard work and contributions to the community over the years, as I know that my own KSP experience would be much poorer without his mods. Anyway, enough from me.
 ### Installation Directions:
 - Use CKAN  
 ![][image:ckan][CKAN][MOD:ckan]
@@ -25,14 +57,9 @@ updated: 2020 04 10 -->
 ### Known Issues
 - *See [Known Issues][MOD:issues] for full details of feature requests, and known issues*
 ### Dependencies
-- [x]  [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions ]/YMMV/
-firespitter (resource swapping and texture switching)
+- [x]  [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions ]/YMMV/  
 ### Recommends  
 - [x]  [Module Manager][thread:mm]  
-- [x]  [Kerbal Changelog][thread:kcl]  
-- [x]  [Community Resource Pack][thread:crp]  
-USI-core
-cck
 ### Suggests
 - [x]  [On Demand Fuel Cells {ODFC)}][thread:ODFC]  
 - [x]  [Field Training Facility (FTF)][thread:FTF]  
@@ -55,7 +82,8 @@ cck
 - [x]  [TweakScale][thread:twk]  
 ### Supports
 - [x]  [TweakScale][thread:tweakscale]  
-- [x]  [Kerbal Changelog][thread:kcl]
+- [x]  [Kerbal Changelog][thread:kcl]  
+- [x]  [Community Resource Pack][thread:crp]
 ### Conflicts
 - [x]  none known
 ***  
@@ -69,7 +97,7 @@ License: ![License MIT][shield:license] ![][LOGO:MIT]
 > *** All bundled mods are distributed under their own licenses***  
 > *** All art assets (textures, models, animations) are distributed under their own licenses***   
 ### Original
-Author: [@dboi88][LINK:dboi88]  
+Author: [@yarbrough08][LINK:yarbrough08]  
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
 Source: [GitHub][MOD:original:source]  
@@ -82,18 +110,18 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 
 ###### v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K
 
-[MOD:license]:	  https://github.com/zer0Kerbal/MODNAME/blob/master/LICENSE
-[MOD:contributing]: https://github.com/zer0Kerbal/MODNAME/blob/master/.github/CONTRIBUTING.md
-[MOD:wiki]:		 https://github.com/zer0Kerbal/MODNAME/
-[MOD:issues]:	   https://github.com/zer0Kerbal/MODNAME/issues
-[MOD:known]:		https://github.com/zer0Kerbal/MODNAME/wiki/Known-Issues
+[MOD:license]:	  https://github.com/zer0Kerbal/MkII-L/blob/master/LICENSE
+[MOD:contributing]: https://github.com/zer0Kerbal/MkII-L/blob/master/.github/CONTRIBUTING.md
+[MOD:wiki]:		 https://github.com/zer0Kerbal/MkII-L/
+[MOD:issues]:	   https://github.com/zer0Kerbal/MkII-L/issues
+[MOD:known]:		https://github.com/zer0Kerbal/MkII-L/wiki/Known-Issues
 [MOD:forum]:		https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
-[MOD:github:repo]:  https://github.com/zer0Kerbal/MODNAME/
-[MOD:changelog]:	https://github.com/zer0Kerbal/MODNAME/Changelog.cfg
+[MOD:github:repo]:  https://github.com/zer0Kerbal/MkII-L/
+[MOD:changelog]:	https://github.com/zer0Kerbal/MkII-L/Changelog.cfg
 [KSP:website]:	  https://kerbalspaceprogram.com/ "Kerbal Space Program"  
 
 <!--- original mod stuff -->
-[MOD:original:source]:	 https://github.com/dboi88/CSI-Cargo-Freighter
+[MOD:original:source]:	 https://github.com/yarbrough08/CSI-Cargo-Freighter
 [MOD:original:thread]:	 https://forum.kerbalspaceprogram.com/index.php?/topic/159615-*
 [MOD:original:download]:   https://spacedock.info/mod/1332/
 [shield:license:original]: https://img.shields.io/badge/License-WTFPL-red?backgroud=black?style=plastic "WTFPL"
@@ -106,9 +134,9 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [LOGO:ccbysa4]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "CC BY-SA-4.0"  [MOD:original:license:shield]:  https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 3.0"   
 
 [MOD:ckan]:	  https://forum.kerbalspaceprogram.com/index.php?/topic/90246-* "CKAN"  
-[MOD:github]:	https://github.com/zer0Kerbal/MODNAME/releases/latest "GitHub"  
+[MOD:github]:	https://github.com/zer0Kerbal/MkII-L/releases/latest "GitHub"  
 [MOD:spacedock]: https://spacedock.info/mod/1332 "SpaceDock"  
-[MOD:curseforge]: https://www.curseforge.com/kerbal/ksp-mods/MODNAME "CurseForge"  
+[MOD:curseforge]: https://www.curseforge.com/kerbal/ksp-mods/MkII-L "CurseForge"  
 
 [image:github]:	 https://i.imgur.com/RE4Ppr9.png
 [image:spacedock]:  https://i.imgur.com/m0a7tn2.png
@@ -121,17 +149,17 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [image:spacedock-sm]:  https://i.postimg.cc/DZ22Hrhj/spacedock.png
 [image:curseforge-sm]: https://i.postimg.cc/ZRVTSWKT/UVVt0OP.png
   
-[shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/MODNAME?include_prereleases?style=plastic
-[shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MODNAME/master/json/mod.json
-[shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MODNAME/master/json/ksp.json
-[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MODNAME/master/json/license.json
-[shield:code]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MODNAME/master/json/code.json
+[shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/MkII-L?include_prereleases?style=plastic
+[shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MkII-L/master/json/mod.json
+[shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MkII-L/master/json/ksp.json
+[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MkII-L/master/json/license.json
+[shield:code]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/MkII-L/master/json/code.json
 [shield:kspavc]:	 https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic
 [shield:spacedock]:  https://img.shields.io/badge/SpaceDock-listed-blue.svg?style=plastic
 [shield:ckan]:	   https://img.shields.io/badge/CKAN-Indexed-blue.svg?style=plastic
 [shield:github]:	 https://img.shields.io/badge/Github-Indexed-blue.svg?style=plastic&logo=github
 [shield:curseforge]: https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic
-[shield:avcvalid]:	https://github.com/zer0Kerbal/MODNAME/workflows/Validate%20AVC%20.version%20files/badge.svg
+[shield:avcvalid]:	https://github.com/zer0Kerbal/MkII-L/workflows/Validate%20AVC%20.version%20files/badge.svg
 
 <!-- zer0Kerbal mods -->
 [thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"  
@@ -191,7 +219,7 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 
 [thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-* "Link to how to get support"  
 
-[LINK:dboi88]:	https://forum.kerbalspaceprogram.com/index.php?/profile/150676-dboi88/ "dboi88"  
+[LINK:yarbrough08]:	https://forum.kerbalspaceprogram.com/index.php?/profile/150676-yarbrough08/ "yarbrough08"  
 [LINK:zer0Kerbal]:	 https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zed'K"  
 
 [IMG:hero:0]: https://i.imgur.com/DVDdgU1.png

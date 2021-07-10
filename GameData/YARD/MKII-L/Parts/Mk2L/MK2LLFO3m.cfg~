@@ -1,0 +1,63 @@
+PART
+{
+    // --- general parameters ---
+    name = MK2LLFO3m
+    module = Part
+    author = Yarbrough08
+
+    // --- asset parameters ---
+    MODEL
+    {
+        model =  YARD/MKII-L/Assets/MK2LFT3m
+    }
+    scale = 1.0
+    rescaleFactor = 1.0
+
+    // --- node definitions ---
+    node_stack_top = 0.0, 1.5, 0.0, 0.0, 1.0, 0.0, 2
+    node_stack_bottom = 0.0, -1.5, 0.0, 0.0, 1.0, 0.0, 2
+
+    // --- editor parameters ---
+    cost = 1230
+    category = Propulsion
+    subcategory = 0
+    title = Mk II-L 3m LFO Tank
+    manufacturer = Yarbrough Aerospace Research & Development
+    description = Liquid fuel and Oxidizer tanks designed for the Mk. II-L fuselage system.
+
+    // attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+    attachRules = 1,0,1,1,0
+
+    // --- standard part parameters ---
+    mass = 1.6875
+    dragModelType = default
+    maximum_drag = 0.2
+    minimum_drag = 0.3
+    angularDrag = 1
+    crashTolerance = 20
+    breakingForce = 432
+    breakingTorque = 432
+    maxTemp = 3000
+    fuelCrossFeed = True
+
+    RESOURCE
+    {
+        name = LiquidFuel
+        amount = 1215
+        maxAmount = 1215
+    }
+
+    RESOURCE
+    {
+        name = Oxidizer
+        amount = 1485
+        maxAmount = 1485
+    }
+
+    RESOURCE
+    {
+        name = MonoPropellant
+        amount = 120
+        maxAmount = 120
+    }
+}

@@ -1,0 +1,146 @@
+PART
+{
+    // --- general parameters ---
+    name = MK2XLPOD
+    module = CommandPod
+    author = Yarbrough08
+
+    // --- asset parameters ---
+    MODEL
+    {
+        model =  YARD/MKII-L/Assets/MK2LPod
+    }
+    scale = 1.0
+    rescaleFactor = 1.0
+
+    // --- node definitions ---
+    // definition format is Position X, Position Y, Position Z, Up X, Up Y, Up Z
+    node_stack_bottom = 0, -2.231532, 0, 0.0, 1.0, 0.0, 2
+
+    // --- FX definitions ---
+
+    // --- editor parameters ---
+    cost = 3200
+    category = Pods
+    subcategory = 0
+    title = Mk. II-L Reusable Pod
+    manufacturer = Yarbrough Aerospace Research & Development
+    description = The Mk. II-L Reuseable Pod represents the best engineering that the lowest bid can buy. Includes a built-in forward landing gear, as well as toggleable ramps to enter and exit the vehicle. Not to mention a semi-functional Thermal Protection System! When a particularly famous kerbanaut first inspected it, he was quoted as saying "I can't wait to crash test this thing!"
+    // attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+    attachRules = 1,0,1,1,0
+
+    // --- standard part parameters ---
+    mass = 5.25
+    dragModelType = default
+    maximum_drag = 0.2
+    minimum_drag = 0.15
+    angularDrag = 2
+    crashTolerance = 45
+    breakingForce = 432
+    breakingTorque = 432
+    maxTemp = 3400
+
+    vesselType = Ship
+
+    // --- pod/rcs parameters ---
+
+    CrewCapacity = 3
+
+    INTERNAL
+    {
+        name = GenericSpace3
+    }
+
+    MODULE
+    {
+        name = ModuleCommand
+        minimumCrew = 1
+    }
+
+    MODULE
+    {
+        name = ModuleSAS
+    }
+
+    MODULE
+    {
+        name = ModuleReactionWheel
+
+        PitchTorque = 10.5
+        YawTorque = 10.5
+        RollTorque = 10.5
+
+        RESOURCE
+        {
+            name = ElectricCharge
+            rate = 1.05
+        }
+    }
+
+    MODULE
+
+    {
+
+        name = MechJebCore
+
+    }
+
+
+
+    RESOURCE
+    {
+        name = ElectricCharge
+        amount = 150
+        maxAmount = 150
+    }
+
+    RESOURCE
+    {
+        name = MonoPropellant
+        amount = 125
+        maxAmount = 125
+    }
+
+    MODULE
+    {
+        name = FlagDecal
+        textureQuadName = Ramp1Flag
+    }
+
+    MODULE
+    {
+        name = FlagDecal
+        textureQuadName = Ramp2Flag
+    }
+
+    MODULE
+    {
+        name = ModuleLandingGear
+        animationName = LGanimation
+    }
+
+    MODULE
+    {
+        name = ModuleAnimateGeneric
+        animationName = RampAnimation
+        startEventGUIName = Deploy Ramps
+        endEventGUIName = Raise Ramps
+        toggleActionName = Toggle Ramps
+        //availableInEVA = True
+        //EVArange = 5
+    }
+
+    MODULE
+    {
+        name = ModuleRCS
+        thrusterTransformName = RCSthruster
+        thrusterPower = 0.50
+        resourceName = MonoPropellant
+        atmosphereCurve
+        {
+            key = 0 260
+            key = 1 100
+        }
+    }
+
+}

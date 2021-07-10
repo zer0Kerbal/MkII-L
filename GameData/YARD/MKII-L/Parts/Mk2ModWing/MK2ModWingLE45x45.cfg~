@@ -8,7 +8,7 @@ PART
     // --- asset parameters ---
     MODEL
     {
-        model =  Yarbrough08/Parts/Mk2ModWing/MK2ModWingLE45x45
+        model = YARD/MKII-L/Assets/MK2ModWingLE45x45
     }
     scale = 1.0
     rescaleFactor = 1.0

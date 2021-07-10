@@ -8,7 +8,7 @@ PART
     // --- asset parameters ---
     MODEL
     {
-        model =  YARD/MKII-L/Assets/MK2OLG2m
+        model = YARD/MKII-L/Assets/MK2OLG2m
     }
     scale = 1.0
     rescaleFactor = 1.0

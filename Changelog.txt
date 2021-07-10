@@ -1,0 +1,14 @@
+Version 0.1 - Initial release
+Version 0.11 - minor CFG Edits
+Version 0.12 - CFG Clean up
+                     Rectified an issue with the Pod Landing gear animation (wheel clipping though pod)
+                     Added: 
+                     3x Tapered wing pieces (no pictures yet)
+                     1x Mk. II-L landing gear (no pictures yet)
+                     3x Original Mk. II LF tanks (no pictures yet)
+                     3x Original Mk. II LFO tanks (no pictures yet)
+                     1x Original Mk. II landing gear section (no pictures yet)
+                     1x Original Mk. II intake (no pictures yet)
+                     1x Original Mk. II 1.25m adapter (no pictures yet)
+                     1x Original Mk. II 2x 1.25m adapter (no pictures yet) 
+                     1x Craft - YardBird

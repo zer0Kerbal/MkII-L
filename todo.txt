@@ -1,0 +1,15 @@
+TODO:
+
+Version 0.2:
+    IVA for Pod
+    Fix a minor texture issue with the normal map
+    Add crew and structural fuselage sections
+    Add a 1.25m & 2.5m docking port
+    Add more landing gear
+    Add status lights to the landing gear
+
+Version 0.3:
+    More Wing parts
+    Tapered and expanded fuselage pieces
+    -Mk. II (1.5625m best estimate?) parts- complete?
+    Requested parts?

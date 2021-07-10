@@ -1,0 +1,67 @@
+PART
+{
+    // --- general parameters ---
+    name = MK2LEAP3
+    module = Part
+    author = Yarbrough08
+
+    // --- asset parameters ---
+    MODEL
+    {
+        model =  Yarbrough08/Parts/Mk2L/MK2LEAP3
+    }
+    scale = 1.0
+    rescaleFactor = 1
+
+    // --- node definitions ---
+    node_stack_top = 0.0, 0.4375, 0.0, 0.0, 1.0, 0.0, 2
+
+    node_stack_bottom01 = 2.0, -0.125, 0.0, 0.0, 1.0, 0.0, 1
+    node_stack_bottom02 = -2.0, -0.125, 0.0, 0.0, 1.0, 0.0, 1
+    node_stack_bottom03 = 0.0, -0.125, 0.0, 0.0, 1.0, 0.0, 1
+
+    node_stack_side01 = 1.0, -0.125, 0.0, 0.0, 1.0, 0.0, 0
+    node_stack_side02 = -1.0, -0.125, 0.0, 0.0, 1.0, 0.0, 0
+    node_stack_side03 = 0.0, -0.125, 1.0, 0.0, 1.0, 0.0, 0
+    node_stack_side04 = 0.0, -0.125, -1.0, 0.0, 1.0, 0.0, 0
+    node_stack_side05 = 0.7071071, -0.125, 0.70710667, 0.0, 1.0, 0.0, 0
+    node_stack_side06 = 0.7071071, -0.125, -0.70710667, 0.0, 1.0, 0.0, 0
+    node_stack_side05 = -0.7071071, -0.125, 0.70710667, 0.0, 1.0, 0.0, 0
+    node_stack_side06 = -0.7071071, -0.125, -0.70710667, 0.0, 1.0, 0.0, 0
+
+    // --- editor parameters ---
+    cost = 250
+    category = 2
+    subcategory = 0
+    title = Mk. II-L Engine Adapter Plate
+    manufacturer = Yarbrough Aerospace Research & Development
+    description = A Mk. II-L adapter plate for multiple engine layouts. Reaction Control System ports included, monopropellant sold separately.
+
+    // attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+    attachRules = 1,0,1,1,0
+
+    // --- standard part parameters ---
+    mass = 0.25
+    dragModelType = default
+    maximum_drag = 0.2
+    minimum_drag = 0.3
+    angularDrag = 1
+    crashTolerance = 30
+    breakingForce = 528
+    breakingTorque = 528
+    maxTemp = 3000
+    fuelCrossFeed = True
+
+    MODULE
+    {
+        name = ModuleRCS
+        thrusterTransformName = RCSthruster
+        thrusterPower = 0.50
+        resourceName = MonoPropellant
+        atmosphereCurve
+        {
+            key = 0 260
+            key = 1 100
+        }
+    }
+}

@@ -1,0 +1,73 @@
+PART
+{
+    // --- general parameters ---
+    name = MK2LCB4m
+    module = Part
+    author = Yarbrough08
+
+    // --- asset parameters ---
+    MODEL
+    {
+        model =  Yarbrough08/Parts/Mk2L/MK2LCB4m
+    }
+    scale = 1.0
+    rescaleFactor = 1.0
+
+    // --- node definitions ---
+    node_stack_top = 0.0, 2.25, 0.0, 0.0, 1.0, 0.0, 2
+    node_stack_bottom = 0.0, -2.25, 0.0, 0.0, 1.0, 0.0, 2
+
+    // --- editor parameters ---
+    cost = 300
+    category = 2
+    subcategory = 0
+    title = Mk. II-L Cargo Bay 4.5m
+    manufacturer = Yarbrough Aerospace Research & Development
+    description = A cargo bay for the Mk. II-L Fuselage System, designed with solar panels in the doors. Even though kerbal engineers swore to us that they were indesturctable, they do seem to break often for no reason...
+
+    // attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+    attachRules = 1,0,1,1,0
+
+    // --- standard part parameters ---
+    mass = 1.125
+    dragModelType = default
+    maximum_drag = 0.2
+    minimum_drag = 0.3
+    angularDrag = 3
+    crashTolerance = 30
+    breakingForce = 432
+    breakingTorque = 432
+    maxTemp = 3000
+    fuelCrossFeed = True
+
+    //MODULE
+    //{
+    //    name = ModuleAnimateGeneric
+    //    animationName = CBAnimation
+    //    startEventGUIName = Open cargo bay doors
+    //    endEventGUIName = Close cargo bay doors
+    //    toggleActionName = Toggle cargo bay doors
+    //    availableInEVA = True
+    //    EVArange = 10
+    //}
+
+    MODULE
+    {
+        name = ModuleDeployableSolarPanel
+        animationName = CBAnimation
+        sunTracking = False
+        raycastTransformName = MK2CBSolar
+        pivotName = MK2CBSolar
+        isBreakable = false
+        
+        resourceName = ElectricCharge
+        chargeRate = 27
+        powerCurve
+        {
+            key = 206000000000 0 0 0
+            key = 13599840256 1 0 0
+            key = 68773560320 0.5 0 0
+            key = 0 10 0 0
+        }
+    }
+}
